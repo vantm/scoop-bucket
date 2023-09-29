@@ -1,11 +1,21 @@
 {
     "homepage": "https://www.unikey.org",
     "description": "UniKey Vietnamese Keyboard",
-    "license": "GNU General Public License",
+    "license": {
+        "identifier": "GNU General Public License",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html"
+    },
     "version": "4.6-RC2",
-    "url": "https://www.unikey.org/assets/release/unikey46RC2-230919-win64.zip",
-    "hash": "667b8d31b0d85fdc2ca17d54c4eab870ba7269063c1dd53acec7897a97af04e3",
-    "extract_dir": "unikey",
+    "extract_to": "unikey",
     "bin": "UniKeyNT.exe",
-    "architecture": "64bit"
+    "architecture": {
+        "64bit": {
+            "url": "https://www.unikey.org/assets/release/unikey46RC2-230919-win64.zip",
+            "hash": "667b8d31b0d85fdc2ca17d54c4eab870ba7269063c1dd53acec7897a97af04e3"
+        }
+    },
+    "shortcuts": [
+        "UniKeyNT.exe",
+        "UniKeyNT"
+    ]
 }
