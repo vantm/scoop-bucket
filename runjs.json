@@ -6,7 +6,7 @@
     "url": "https://github.com/lukehaas/RunJS/releases/download/v3.1.2/RunJS-Setup-3.1.2.exe#/dl.7z",
     "hash": "494381AB5DE1A8170015C7AB38EDF202F7A273CE99E8896AB9AEA4C9FF57009B",
     "pre_install": [
-        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
+        "7z x \"$dir\\`$PLUGINSDIR\\app-64.7z\" -o\"$dir\"",
         "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
     ],
     "shortcuts": [
