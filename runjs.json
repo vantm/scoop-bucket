@@ -1,7 +1,7 @@
 {
     "version": "3.1.2",
     "homepage": "https://runjs.app",
-    "license": "NA",
+    "license": "N/A",
     "description": "RunJS is a JavaScript playground for macOS, Windows and Linux. Write code with instant feedback and access to Node.js and browser APIs.",
     "url": "https://github.com/lukehaas/RunJS/releases/download/v3.1.2/RunJS-Setup-3.1.2.exe#/dl.7z",
     "hash": "494381AB5DE1A8170015C7AB38EDF202F7A273CE99E8896AB9AEA4C9FF57009B",
