@@ -1,0 +1,20 @@
+{
+    "homepage": "https://github.com/microsoft/azuredatastudio",
+    "description": "Azure Data Studio",
+    "license": "MIT",
+    "bin": "azuredatastudio.exe",
+    "version": "1.52.0",
+    "url": "https://github.com/microsoft/azuredatastudio/releases/tag/1.52.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.microsoft.com/download/6b2bfeac-9c1b-4182-9a2f-ce86ff8cc371/azuredatastudio-windows-1.52.0.zip",
+            "hash": "sha256:fd30a8cff62121544df5d2d4b893a1a075a3bf8b8f24f7930d582c42b8d91ffb"
+        }
+    },
+    "shortcuts": [
+        [
+            "azuredatastudio.exe",
+            "Azure Data Studio"
+        ]
+    ]
+}
